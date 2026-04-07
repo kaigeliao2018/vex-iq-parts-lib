@@ -1,0 +1,15 @@
+# 大型二进制/文本文件（不入库）
+*.step
+*.stp
+*.stl
+
+# L2 历史库（本地保存，不入 git）
+L2-legacy-dat/
+
+# L5 备份（本地保存，不入 git）
+L5-dr/
+*.tar.gz
+*.zip
+
+# macOS
+.DS_Store
