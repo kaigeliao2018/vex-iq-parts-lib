@@ -1,0 +1,33 @@
+0 228-7725-000 Pneumatic Pump
+0 Name: 228-7725-000_Pneumatic_Pump.dat
+0 Author:
+0 !LDRAW_ORG Part
+0 BFC CERTIFY CCW
+
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7725-000s1.dat
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7725-000s2.dat
+1 71 -80 32 -32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 -48 32 -32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 -16 32 -32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 16 32 -32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 48 32 -32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 80 32 -32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 -80 32 32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 -48 32 32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 -16 32 32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 16 32 32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 48 32 32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 80 32 32 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 71 0 0 0 1 0 0 0 -1 0 0 0 -1 s/228-7725-000s1.dat
+1 71 -80 -32 32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 -48 -32 32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 -16 -32 32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 16 -32 32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 48 -32 32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 80 -32 32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 -80 -32 -32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 -48 -32 -32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 -16 -32 -32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 16 -32 -32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 48 -32 -32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat
+1 71 80 -32 -32 1 0 0 0 -1 0 0 0 -1 s/vexpinhole.dat

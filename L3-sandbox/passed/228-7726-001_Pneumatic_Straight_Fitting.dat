@@ -1,0 +1,9 @@
+0 228-7726-001 Pneumatic Straight Fitting
+0 Name: 228-7726-001_Pneumatic_Straight_Fitting.dat
+0 Author:
+0 !LDRAW_ORG Part
+0 BFC CERTIFY CCW
+
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7726-001s1.dat
+1 71 0 0 0 -1 0 0 0 1 0 0 0 -1 s/228-7726-001s1.dat
+1 71 0 7.9 0 0 0 -1 0 -1 0 -1 0 0 s/vexpin1.dat
