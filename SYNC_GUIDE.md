@@ -30,13 +30,24 @@ git pull
 
 > ⚠️ 如果目标路径已有旧版本，直接覆盖。
 
-**Lib1 包含**：485 个官方 .step 零件（只读，命名标准）
-**Lib2 包含**：1274 个 .dat 零件（只读，历史积累）
+**Lib1 包含**：453 个官方 .step 零件（449 官方包 + 4 补充件，只读）
+**Lib2 包含**：2363 个 .dat 文件总计（主件 1245 + s/子件 494 + p/图元 624，只读）
 
 ---
 
 ## 第三步：确认完成
 
+同步后用以下命令核验数量（在 Mac 终端执行）：
+
+```bash
+# Lib1 核验（应得 453）
+find ~/vex-iq-build-assistant/LDCad项目/Lib1_Official_Reference/ -name "*.step" | wc -l
+
+# Lib2 核验（应得 2363）
+find ~/vex-iq-build-assistant/LDCad项目/Lib2_Accumulated_Legacy/ -name "*.dat" | wc -l
+```
+
+目录结构：
 ```
 ~/vex-iq-parts-lib/
 ├── L3-sandbox/
@@ -45,8 +56,8 @@ git pull
 └── L4-release/
 
 ~/vex-iq-build-assistant/LDCad项目/
-├── Lib1_Official_Reference/   ← 485个.step ✅
-├── Lib2_Accumulated_Legacy/   ← 1274个.dat ✅
+├── Lib1_Official_Reference/   ← 453个.step ✅
+├── Lib2_Accumulated_Legacy/   ← 2363个.dat ✅
 ├── Lib3_Experimental_Field/   ← 已迁移到 vex-iq-parts-lib，忽略
 ├── Lib4_Official_Release/     ← 已迁移到 vex-iq-parts-lib，忽略
 └── Lib5_Disaster_Recovery/    ← 暂无内容，忽略
