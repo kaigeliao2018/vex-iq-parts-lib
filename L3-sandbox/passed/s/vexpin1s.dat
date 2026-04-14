@@ -1,0 +1,18 @@
+0 ~VEX Pin  1L Split Base
+0 Name: s\vexpin1s.dat
+0 Author: Philippe Hurbain [Philo]
+0 !LDRAW_ORG Subpart
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2014-03-19 [Philo] File preparation for LDraw Parts Tracker
+
+0 // Though this file carries Ldraw official tag to be recognized by some tools
+0 // it is not endorsed or validated by LDraw organization
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\vexpinsplitbase.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 -1 s\vexpinsplitbase.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\vexpincap.dat
+1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\vexpincap.dat
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\vexpin1sbody.dat
