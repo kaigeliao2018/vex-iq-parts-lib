@@ -1,0 +1,28 @@
+0 228-7722-000 Pneumatic Control Unit
+0 Name: 228-7722-000_Pneumatic_Control_Unit.dat
+0 Author:
+0 !LDRAW_ORG Part
+0 BFC CERTIFY CCW
+
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7722-000s1.dat
+1 72 0 0 0 0 0 -1 0 1 0 1 0 0 s/228-7722-000s1.dat
+1 72 0 0 0 0 0 1 0 1 0 -1 0 0 s/228-7722-000s1.dat
+1 72 0 0 0 -1 0 0 0 1 0 0 0 -1 s/228-7722-000s1.dat
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7722-000s2.dat
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7722-000s3.dat
+1 2 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7722-000s4.dat
+1 2 13 0 0 1 0 0 0 1 0 0 0 1 s/228-7722-000s4.dat
+1 15 -18.9 -47.4 -15.1 0.6 0 0 0 0.6 0 0 0 0.6 s/228-7722-000s5.dat
+1 71 63 -33.4 18.3 0 0 -1 1 0 0 0 -1 0 vexrjsocket.dat
+1 72 48 -7.7 48 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 16 -7.7 48 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 -16 -7.7 48 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 -48 -7.7 48 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 -48 -7.7 16 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 -48 -7.7 -16 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 -48 -7.7 -48 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 -16 -7.7 -48 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 16 -7.7 -48 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 48 -7.7 -48 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 48 -7.7 -16 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
+1 72 48 -7.7 16 -1 0 0 0 -1 0 0 0 1 s/vexpinhole.dat
