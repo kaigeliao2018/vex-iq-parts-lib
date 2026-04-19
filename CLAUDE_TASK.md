@@ -1,34 +1,44 @@
 # 当前任务交接（2026-04-19）
 
-## 上次完成
-- ✅ Shadow/snap 机制调查，测试环境修复（梁有吸附）
-- ✅ Magikid 描述行指纹方案确立，pbg 精准过滤验证通过
-- ✅ 直梁38件批量整理进 vex-iq-parts-v2（Lib3）
-- ✅ pbg 更新，LDCad 测试环境显示正常，无旧件重复
+## 今日完成
+- ✅ 发现4件"来源不明"实为生产环境 `ling_jian_ku/VEX_IQ_te_shu/parts/`（共31件）
+- ✅ 决策：将整个 VEX_IQ_te_shu 目录纳入原子化流程
+- ✅ A类11件原子化完成，写入 Lib3 测试库
+  - VEXbeams：1240/1245/1485/1110（4件特形梁）
+  - VEXpins：1658/1109/1660
+  - VEXgear：1413/1303
+  - VEXmisc：421
+  - VEXpanels：524
+- ✅ pbg 规则踩坑修复：NOMATCH 导致所有类目消失，已恢复原始规则
+- ✅ VEXbeams 规则改为 `include description magikid` + `exclude !description beam`（防止非梁件混入）
+- ✅ 7件非梁件描述行补加 VGR 标记（-Vgr3-/-Vgr6-/-Vgr8-/-Vgr9-）使其显示在正确类目
 
-## 下次上线立即做
+## 遗留问题（下次上线验证）
 
-### 1. 凯戈确认4件来源（基准清单中 Lib2 不存在的）
-- `2x4 wedge beam (228-2500-1240).dat`
-- `3x5 wedge plate (228-2500-1245).dat`
-- `2x2 30 degree beam (228-2500-1485).dat`
-- `2x8 smooth panel (228-2500-524).dat`
+### 1. LDCad 重启验证（凯戈操作）
+- **Beams & Plates**：应只有42件（38直梁+4特形梁），不出现其他件
+- **Panels & Special Beams**：应出现 2x8 Smooth Panel
+- **Pins & Standoffs**：Crane Hook / Truss Connector / Ball Pin Bushing 应有新名
+- **Gears & Motion**：应出现 Idler Pulley / Cam Follower
+- **Miscellaneous**：2x Spool 应有新名
 
-### 2. LDCad 渲染验证（凯戈操作）
-- 重启测试 LDCad，Beams & Plates 应显示38件
-- 随机抽查几件梁渲染是否正常
-- 用 Pin/轴测试吸附
+### 2. VEX_IQ_te_shu B/C类件（待处理）
+- **B类（描述行只有SKU，6件）**：1381/1704/1705/2161/2248/178 — 需开文件确认几何
+- **C类（描述行空，7件）**：1407/1727/1728/1548/1953/1958/1411 — 需逐一检查
+- **D类（跳过）**：1702/4x12薄片/shou_bing_0.2.ldr/276-prefix件/中文名件
 
-### 3. 通过后继续整理特形梁
-见 `plans/beams_baseline.md` → 特形梁29件
+### 3. 特形梁（beams_baseline.md 中29件）
+- 来源：Lib2 或 te_shu（需确认），原来定为"下阶段"
+- 注意：te_shu 里已有部分特形梁（1110/1485 已处理）
+
+## pbg 规则说明（踩坑记录）
+- LDCad 的 `<items>` 列表不是独立于规则的——规则不匹配则 items 也不显示
+- VEXbeams 用 `include description magikid` + `exclude !description beam`（双重过滤）
+- 其他 pbg 用原始 VGR 规则：`include description vex` + `exclude !description -vgrN-`
+- 新件要进哪个类目，描述行里必须带对应 VGR 标记
 
 ## 关键路径
-- 基准清单：`~/vex-iq-parts-lib/plans/beams_baseline.md`
+- te_shu 来源：`C:\LDCad-1-7-Alpha-2a-Win-IQ\ling_jian_ku\VEX_IQ_te_shu\parts\`
 - 测试库：`C:\LDCad-1-7-Alpha-2a-Win-IQ - 副本\vex-iq-parts-v2\parts\`
-- 技术手册：`~/kaige-brain/tech-notes/ldcad-shadow-snap-mechanism.md`
-
-## 铁律提醒
-- Lib2 永远只读，不动
-- 不跨环境
-- 改动前先从权威来源记录状态
-- 任何数量必须实测，不猜
+- 基准清单：`~/vex-iq-parts-lib/plans/beams_baseline.md`
+- pbg 位置：`C:\LDCad-1-7-Alpha-2a-Win-IQ - 副本\partBin\default\sorted\`
