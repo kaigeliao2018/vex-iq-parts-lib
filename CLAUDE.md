@@ -22,9 +22,18 @@ VEX IQ 零件库管理系统，配套 vex-iq-build-assistant。
 - 色号：灰色零件统一 **71**
 - **铁律：公共子件跟原版走，不造轮子，不轻易改动，一处改动影响全部引用它的零件**
 
+## 上线必读：技术手册
+
+进入此项目工作前，必须读取以下技术手册：
+
+- LDCad Shadow/Snap 机制：`~/kaige-brain/tech-notes/ldcad-shadow-snap-mechanism.md`
+
+> 手册记录了踩过的坑和调查结论，遇到吸附/snap/shadow问题先查手册，不要重复调查。
+
 ## 当前进度
-气动类目（Pneumatics）进行中 — 见 `~/CLAUDE_TASK.md`
+气动类目（Pneumatics）已完成，梁类目（Beams）整理中 — 见 `~/vex-iq-parts-lib/plans/architecture_parts_library_v1.md`
 
 ## 禁止
 - 修改 Lib1 / Lib2 任何文件
 - 跳过 App 预览验收直接移入 Lib4
+- 测试环境引用生产环境路径（铁律：不跨环境）
