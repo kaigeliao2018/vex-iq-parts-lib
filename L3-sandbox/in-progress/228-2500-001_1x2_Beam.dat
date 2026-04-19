@@ -1,0 +1,24 @@
+0 VEX Beam  1 x  2 -Vgr2-
+0 Name: 228-2500-001.dat
+0 Author: Philippe Hurbain [Philo]
+0 !LDRAW_ORG Part
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2015-04-30 [Philo] File preparation for LDraw Parts Tracker
+
+0 // Though this file carries Ldraw official tag to be recognized by some tools
+0 // it is not endorsed or validated by LDraw organization
+
+1 16 0 8 0 -1 0 0 0 1 0 0 0 1 s/vexbeamsidemid.dat
+1 16 0 8 0 1 0 0 0 1 0 0 0 1 s/vexbeamsidemid.dat
+1 16 0 8 0 -1 0 0 0 1 0 0 0 -1 s/vexbeamsidemid.dat
+1 16 0 8 0 1 0 0 0 1 0 0 0 -1 s/vexbeamsidemid.dat
+1 16 0 8 16 1 0 0 0 1 0 0 0 1 s/vexbeamcorner.dat
+1 16 0 8 16 0 0 -1 0 1 0 1 0 0 s/vexbeamcorner.dat
+1 16 0 8 -16 -1 0 0 0 1 0 0 0 -1 s/vexbeamcorner.dat
+1 16 0 8 -16 0 0 1 0 1 0 -1 0 0 s/vexbeamcorner.dat
+1 16 0 8 0 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 16 0 8 16 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
+1 16 0 8 -16 1 0 0 0 1 0 0 0 1 s/vexpinhole.dat
