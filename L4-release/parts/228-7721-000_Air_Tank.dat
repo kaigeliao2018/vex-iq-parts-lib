@@ -1,0 +1,11 @@
+0 228-7721-000 Air Tank
+0 Name: 228-7721-000_Air_Tank.dat
+0 Author: 
+0 !LDRAW_ORG Part
+0 BFC CERTIFY CCW
+
+1 73 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7721-000s1.dat
+1 80 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7721-000s2.dat
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7721-000s3.dat
+1 71 15.7 47.8 -32 0 0 1 0 -1 0 1 0 0 s/vexpin1s.dat
+1 71 15.7 47.8 32 0 0 1 0 -1 0 1 0 0 s/vexpin1s.dat

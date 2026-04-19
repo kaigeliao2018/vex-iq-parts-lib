@@ -1,0 +1,11 @@
+0 228-7723-000 2x Pitch Pneumatic Cylinder Piston
+0 VEX-IQ-气动-2x冲程气缸-活塞
+0 Name: s/228-7723-000s2.dat
+0 Author:  
+0 BFC CERTIFY CCW
+
+1 72 -192 0 0 1 0 0 0 1 0 0 0 1 s/228-7724-000s6.dat
+1 80 -224 0 0 1 0 0 0 1 0 0 0 1 s/228-7724-000s7.dat
+1 80 -192 0 0 1 0 0 0 1 0 0 0 1 s/228-7724-000s7.dat
+1 72 0 0 -8 1 0 0 0 0 -1 0 1 0 s/vexpinhole.dat
+1 72 0 0 8 1 0 0 0 0 -1 0 1 0 s/vexpinhole.dat

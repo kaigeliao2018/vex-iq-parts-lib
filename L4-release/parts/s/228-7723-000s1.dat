@@ -1,0 +1,12 @@
+0 228-7723-000 2x Pitch Pneumatic Cylinder Barrel
+0 VEX-IQ-气动-2x冲程气缸-缸筒
+0 Name: s/228-7723-000s1.dat
+0 Author:  
+0 BFC CERTIFY CCW
+
+1 73 0 0 0 1 0 0 0 1 0 0 0 1 s/228-7724-000s3.dat
+1 73 -64 0 0 1 0 0 0 1 0 0 0 1 s/228-7724-000s4.dat
+1 72 -64 0 0 1 0 0 0 1 0 0 0 1 s/228-7724-000s5.dat
+1 73 0 0 -8 1 0 0 0 0 -1 0 1 0 s/vexpinhole.dat
+1 73 0 0 8 1 0 0 0 0 -1 0 1 0 s/vexpinhole.dat
+1 72 103 0 0 0 1 0 0 0 -1 -1 0 0 s/vexaxleholesides.dat
